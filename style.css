@@ -1,127 +1,106 @@
+
 *{
-        margin: 0px;
-        padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 body{
-        background-image: linear-gradient(to bottom , #0a95bf, #0f718e);
-        text-align: center;
-        color: black;
-        
-}
-
-
-header{
-        background-color: rgb(254, 165, 180);
-         color: rgb(12, 13, 13);
-        padding-inline : 15px ;
-        max-width: 1380px;
-        
-        
-
-
+    background-image: linear-gradient( to bottom , blue, rgb(13, 121, 230));
+    text-align: center;
 
 }
 a{
-        text-decoration: none;
-        font-size: 18px;
-        color: white;
-        padding-block: 16px;
-        
+    font-family: sans-serif;
 }
-.logo{
-        font-size: 40px;
+.header{
+    background-color: rgb(252, 160, 158);
+    padding-inline: 16px;
+    height: 90px;
+
+}
+
+.nav{
+    max-width: 1380px;
+    min-height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 160, 158);
+    
+}
+.nav-list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.nav-list a{
+    font-size: 18px;
+    color: black;
+    padding-block: 16px;
 }
 .btn{
-        display: none;
-        border: none;
-        background: none;
-        border-top: 3px solid white;
-        cursor: pointer;
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid rgb(21, 21, 21);}
+    
+.btn::before ,
+.btn::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: rgb(18, 17, 17);
+    margin-top: 5px;
 }
-.btn::before, .btn::after {
-          content: " ";
-        display: block;
-        width: 30px;
-        height: 3px;
-        background :white ;
-        margin-top: 5px;
-}
-@media (max-width:750px){
-        .btn{
+@media(max-width:750px){
+    .btn{
         display: block;
         z-index: 1;
-        }
-
-
-.list /*no html e ul */{
-        display: flex;
-        gap: 32px;
-        list-style: none;
-        
-
-}
-.list{
-        position: fixed;
+    }
+    .nav-list{
+        position:fixed;
         top: 0;
         left: 0;
         width: 100vw;
         height: 100vh;
+        background-color: red;
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         gap: 0;
-        clip-path: circle(100px at 90%  -15%);
-        background:rgb(202, 34, 155);
-        transition: 1s ease-out;
         pointer-events: none;
-}
-.list a{
-font-size: 24px;
-opacity: 0;
-}
-.list li:nth-child(1)a{
-transition: 0.5s 0.2s;
-}
-.list li:nth-child(2)a{
-transition: 0.5s 0.4s; 
-}
-.list li:nth-child(3)a{
-transition: 0.5s 0.6s;
-}
-.navv.active .list a{
-       opacity: 1;
-}
-
-/* evento */
-nav{
-        background-color: rgb(254, 165, 180);
-        max-width: 1380px;
-        height: 70px;
-        margin-inline: auto ;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
-}
-
-.navv.active .list{
+    }
+    .nav.active .nav-list{
         clip-path: circle(1500px at 90% -15%);
         pointer-events: all;
 
-}}
-div{
-        background-color: rgb(149, 194, 239);
-        width: 350px;
-        height: 350px;
-        margin-bottom: 30px;
-        display: inline-flexbox;
-        flex-direction: row;
-        margin-left :auto ;
-        margin-right: auto;
-        color:black;
-        margin-top: 30px;
+}
+    
+}
+/*  tudo isso asssima e do  sistema do menu hamburuer*/
+main{
+background-image: linear-gradient( to bottom , blue, rgb(13, 121, 230))
+}
 
-        border-radius: 20px;       
+
+div{
+    background-color: aqua;
+    display: flexbox;
+    margin-left: 45%;
+    width: 300px;
+   height: 300px;
+   margin-bottom: 30px;
+   border-radius: 20px;
 
 }
+
+div.lapis{
+    margin-top: 50px;
+    
+}
+
 
