@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #F2C8C4;;
+    background-color:rgb(83, 168, 233);
     text-align: center;
 
 }
@@ -11,7 +11,7 @@ a{
     font-family: sans-serif;
 }
 .header{
-    background-color: #F2C8C4;
+    background-color: #f7e2e0;
     padding-inline: 16px;
     height: 90px;
 
@@ -24,7 +24,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#F2C8C4;
+    background-color: #f7e2e0;
     
 }
 .nav-list{
@@ -83,14 +83,14 @@ a{
 }
 /*  tudo isso asssima e do  sistema do menu hamburuer*/
 main{
-background-image: linear-gradient( to bottom ,#45b5fa,#3b7085)
+background-image: linear-gradient( to bottom ,#86b1bf,#5da5c9)
 }
 
 div{
     width: 300px;
     height: 300px;
     margin-bottom: 30px;
-    background-color:#2466f4;
+    background-color:#416475;
     display: inline-flex;
     flex-direction: column;
     margin-left: 50%;
