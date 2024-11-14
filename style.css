@@ -10,12 +10,14 @@ body{
 a{
     font-family: sans-serif;
     margin: 20px;
+    text-decoration: none;
 }
 .header{
     background-color:#fad2f0;
     padding-inline: 16px;
     height: 90px;
     padding-top: 50px;
+    
     
     
     
