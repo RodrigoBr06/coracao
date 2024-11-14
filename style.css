@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color:#19a6e8;
+    background-color:#3BACD9;
     text-align: center;
 
 }
@@ -12,7 +12,7 @@ a{
     margin: 20px;
 }
 .header{
-    background-color:#19a6e8;
+    background-color:#fcb6ea;
     padding-inline: 16px;
     height: 90px;
 
@@ -25,7 +25,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#19a6e8;
+    background-color:#fcb6ea;
     
 }
 .nav-list{
@@ -64,7 +64,7 @@ a{
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color:#19a6e8;
+        background-color:#fcb6ea;
         clip-path: circle(100px at 90% -15%);
         transition: 1s ease-out;
 
@@ -83,26 +83,29 @@ a{
     
 }
 /*  tudo isso asssima e do  sistema do menu hamburuer*/
-main{
-background-image: linear-gradient( to bottom ,#86b1bf,#5da5c9)
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
 }
+
 
 div{
     width: 300px;
     height: 300px;
-    margin-bottom: 30px;
-    background-color:#416475;
+    margin-bottom: 100px;
+    background-color:#3BACD9;
     display: inline-flex;
     flex-direction: column;
     margin-left: 50%;
     margin-right: 50%;
     transform: translate(-50%,-50%);
     border-radius: 30px;
-    
-    
-    
-    
-    
+}
+h1{
+
 }
 .lapis{
     margin-top: 300px;
