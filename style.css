@@ -1,10 +1,23 @@
+ @charset "utf-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+
 }
+
+
+
+
+
+
 body{
     background-color:#36c4fc;
     text-align: center;
+    font-family: Playball, Arial, Helvetica, sans-serif;
+    
    
 }
 a{
@@ -125,7 +138,7 @@ div{
     border-radius: 30px;
 }
 h1{
-
+    font-size: 4em;
 }
 #servico , p{
     margin-top: 20px;
