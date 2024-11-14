@@ -5,7 +5,7 @@
 body{
     background-color:#3BACD9;
     text-align: center;
-
+   
 }
 a{
     font-family: sans-serif;
@@ -15,6 +15,10 @@ a{
     background-color:#fcb6ea;
     padding-inline: 16px;
     height: 90px;
+    
+    
+    
+
 
 }
 
@@ -26,6 +30,7 @@ a{
     justify-content: space-between;
     align-items: center;
     background-color:#fcb6ea;
+    
     
 }
 .nav-list{
@@ -89,6 +94,11 @@ img{
     height: 300px;
     border-radius: 20px;
     
+}
+main{
+    
+    
+
 }
 
 
