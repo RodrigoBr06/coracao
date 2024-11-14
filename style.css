@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color:#3BACD9;
+    background-color:#36c4fc;
     text-align: center;
    
 }
@@ -12,9 +12,10 @@ a{
     margin: 20px;
 }
 .header{
-    background-color:#fcb6ea;
+    background-color:#fad2f0;
     padding-inline: 16px;
     height: 90px;
+    padding-top: 50px;
     
     
     
@@ -24,12 +25,12 @@ a{
 
 .nav{
 
-    min-height: 70px;
+    min-height: 40px;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#fcb6ea;
+    background-color:#fad2f0;
     
     
 }
@@ -69,7 +70,7 @@ a{
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color:#fcb6ea;
+        background-color:#fad2f0;
         clip-path: circle(100px at 90% -15%);
         transition: 1s ease-out;
 
