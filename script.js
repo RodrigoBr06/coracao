@@ -157,15 +157,15 @@ pch5.addEventListener("click",pochete5)
 //abaixo botoes dos cadernos
 
 var cd1=document.querySelector("#cadernos1")
-var  cd2=document.querySelector("#caderno2")
-var  cd3=document.querySelector("#caderno3")
-var  cd4=document.querySelector("#caderno4")
-var  cd5=document.querySelector("#caderno")
+var  cd2=document.querySelector("#cadernos2")
+var  cd3=document.querySelector("#cadernos3")
+var  cd4=document.querySelector("#cadernos4")
+var  cd5=document.querySelector("#cadernos5")
 
 var fotoCadernos=document.querySelector("#cadernos")
 
 function caderno1(){
-    fotoPochete.src="img/cadernoemocao.png"
+    fotoCadernos.src="img/cadernomonstroSa.png"
     
 
 }
