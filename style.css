@@ -167,6 +167,13 @@ h1,h3{
      margin: auto;
     
 }
+.buton:hover{
+    background-color: pink;
+
+}
+.buton:active{
+    background-color: rgb(116, 105, 105);
+}
 #botao{
     list-style: none;
     display:flex;
