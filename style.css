@@ -30,7 +30,7 @@ a{
     background-color:#fad2f0;
     padding-inline: 16px;
     height: 90px;
-    padding-top: 50px;
+    padding-top: 10px;
     
     
     
@@ -139,7 +139,7 @@ div{
     border-radius: 30px;
 }
 h1{
-    font-size: 2em;
+    
 }
 #servico , p{
     margin-top: 20px;
