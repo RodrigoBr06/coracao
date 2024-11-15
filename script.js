@@ -88,11 +88,11 @@ cnt5.addEventListener("click",caneta5)
 
 // abaixo os botoes da mochila
 
-var mch1=document.querySelector("#caneta1")
-var mch2=document.querySelector("#caneta2")
-var mch3=document.querySelector("#caneta3")
-var mch4=document.querySelector("#caneta4")
-var mch5=document.querySelector("#caneta5")
+var mch1=document.querySelector("#mochila1")
+var mch2=document.querySelector("#mochila2")
+var mch3=document.querySelector("#mochila3")
+var mch4=document.querySelector("#mochila4")
+var mch5=document.querySelector("#mochila5")
 
 var fotoMochila=document.querySelector("#mochila")
 
@@ -156,11 +156,11 @@ pch5.addEventListener("click",pochete5)
 
 //abaixo botoes dos cadernos
 
-var cd1=document.querySelector("#caneta1")
-var  cd2=document.querySelector("#caneta2")
-var  cd3=document.querySelector("#caneta3")
-var  cd4=document.querySelector("#caneta4")
-var  cd5=document.querySelector("#caneta5")
+var cd1=document.querySelector("#cadernos1")
+var  cd2=document.querySelector("#caderno2")
+var  cd3=document.querySelector("#caderno3")
+var  cd4=document.querySelector("#caderno4")
+var  cd5=document.querySelector("#caderno")
 
 var fotoCadernos=document.querySelector("#cadernos")
 
