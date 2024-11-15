@@ -94,7 +94,7 @@ var mch3=document.querySelector("#caneta3")
 var mch4=document.querySelector("#caneta4")
 var mch5=document.querySelector("#caneta5")
 
-var fotoMochila=document.querySelector("#muchila")
+var fotoMochila=document.querySelector("#mochila")
 
 function muchila1(){
     fotoMochila.src="img/mochilaStit.png"
@@ -162,7 +162,7 @@ var  cd3=document.querySelector("#caneta3")
 var  cd4=document.querySelector("#caneta4")
 var  cd5=document.querySelector("#caneta5")
 
-var fotoCadernos=document.querySelector("#pochete")
+var fotoCadernos=document.querySelector("#cadernos")
 
 function caderno1(){
     fotoPochete.src="img/cadernoemocao.png"
