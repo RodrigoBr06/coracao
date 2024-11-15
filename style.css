@@ -112,7 +112,7 @@ a{
 img{
     width: 300px;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
     
 }
 #img-main{
@@ -131,8 +131,8 @@ main{
 
 div{
     width: 300px;
-    height: 300px;
-    margin-bottom: 100px;
+    height: 500px;
+    margin-bottom: 50px;
     background-color:#36c4fc;
     display: flex;
     flex-direction: column;
@@ -141,7 +141,7 @@ div{
     transform: translate(-50%,-50%);
     border-radius: 30px;
 }
-section{
+.footer{
     background-color: rgba(0, 0, 0, 0.3);
     margin-bottom: 30px;
 }
@@ -158,4 +158,22 @@ h1,h3{
     margin-top: 300px;
 
 }
+.buton{
+    width: 20px;
+    height: 20px;
+    background-color: #f8f5f8;
+     border-radius: 20px;
+     margin: 0px;
+     margin: auto;
+    
+}
+#botao{
+    list-style: none;
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.941);
+    border-radius: 00px 0px 10px 10px;
+}
+
+
+
 
