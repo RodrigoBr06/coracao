@@ -148,6 +148,9 @@ div{
 h1,h3{
     font-size: 3em;
 }
+h2{
+    font-size: 2em;
+}
 #servico , p{
     margin-top: 20px;
     color: white;
@@ -159,12 +162,12 @@ h1,h3{
 
 }
 .buton{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: #f8f5f8;
      border-radius: 20px;
-     margin: 0px;
-     margin: auto;
+     margin: 16px;
+     
     
 }
 .buton:hover{
